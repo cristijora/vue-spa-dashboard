@@ -8,12 +8,6 @@
 
 <script>
   export default {
-    created () {
-      window.onerror = (e) => {
-        debugger
-        alert(e)
-      }
-    }
   }
 </script>
 <style>
